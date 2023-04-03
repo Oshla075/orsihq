@@ -22,5 +22,5 @@ Route::get('/', function () {
 });
 
 
-// Route::get('admin/mem_reg_form',[Maincontroller::class,'mem_reg_form'])->name('admin.mem_reg_form');
+Route::get('admin/mem_reg_form',[Maincontroller::class,'mem_reg_form'])->name('admin.mem_reg_form');
 
